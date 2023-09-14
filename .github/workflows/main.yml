@@ -8,9 +8,6 @@ jobs:
       - name: "foo"
         run: |
           echo "foo"
-      - name: prep
-        run: |
-          mv .github/workflows/test.yml.tpl .github/workflows/test.yml
   call-workflow:
     uses: ./.github/workflows/test.yml
 
