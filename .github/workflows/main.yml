@@ -12,5 +12,5 @@ jobs:
         run: |
           mv .github/workflows/test.yml.tpl .github/workflows/test.yml
   call-workflow:
-    uses: ./github/workflows/test.yml
+    uses: ./.github/workflows/test.yml
 
