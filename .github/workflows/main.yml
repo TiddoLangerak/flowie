@@ -1,0 +1,13 @@
+name: initial gha
+run-name: initial gha
+on: [push]
+jobs:
+  check-bats-version:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: "foo"
+        run: |
+          echo "foo"
+
+
